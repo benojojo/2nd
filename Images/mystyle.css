@@ -1,0 +1,22 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+
+.nav{
+  height:10vh;
+  background-color:black
+}
+
+.hero{
+  height:10vh;
+  background-color:red
+}
+.pen{
+  height:90vh;
+  background-color:grey
+}
+h1{
+  text-align: center;
+  color:blue
+}
