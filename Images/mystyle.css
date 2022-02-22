@@ -1,22 +1,82 @@
+:root {
+  background: grey;
+}
 body{
   margin:0px;
   padding:0px;
+
 }
 
-.nav{
-  height:10vh;
-  background-color:black
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:red;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.hero{
-  height:10vh;
-  background-color:red
+li {
+  float: right;
 }
-.pen{
-  height:90vh;
-  background-color:grey
-}
-h1{
+
+li a {
+  display: block;
+  color: white;
   text-align: center;
-  color:blue
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+h1 {  font-size: 100px;}
+h2 {  font-size: 40px;}
+h3 {  font-size: 50px;}
+h1 { text-align: center }
+h2 { text-align: center }
+h3 { text-align: center }
+h3 {  text-decoration: underline;}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/*.active {
+  background-color: #04AA6D;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
